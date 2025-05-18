@@ -16,7 +16,7 @@ const App = () => {
           return (
             <div className="col-lg-4 col-sm-12">
               <div className="team-area pb-3 mt-5">
-                <TeamMemberCard key={team.id} name={team.name} email={team.email} address={team.address} />
+                <TeamMemberCard key= {team.id} id ={team.id} name={team.name} email={team.email} address={team.address} />
               </div>
             </div>
 
